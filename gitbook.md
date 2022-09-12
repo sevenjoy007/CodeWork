@@ -43,7 +43,7 @@ vim ~/.zshrc
 source ~/.zshrc
 ```
 
-2\. 下载node.js（版本10是可以成功的，10以上好像会报错，反正最新的16版本是会报错的）
+2\. 下载node.js**（版本10是可以成功的，10以上好像会报错，反正最新的16版本是会报错的）**
 
 ```bash
 nvm ls
@@ -55,10 +55,11 @@ nvm use 10
 3\. 安装gitbook
 
 ```bash
-npm install -g gitbook-cli // -g全局，安装命令行版gitbook-cli
+npm install -g gitbook-cli # -g全局，安装命令行版gitbook-cli
 // npm install -g gitbook-cli@2.3.2 --save-dev //安装指定版本的命令行版gitbook-cli
-gitbook -V //查看版本号，看是否安装成功
-gitbook fetch 2.6.9 // 再安装2.6.9，用该版本build出来的书籍点击目录可以跳转
+gitbook -V # 查看版本号，看是否安装成功
+
+gitbook fetch 2.6.9 # 再安装2.6.9，用该版本build出来的书籍点击目录可以跳转
 gitbook ls    # 查看安装了哪些版本
 ```
 
@@ -122,6 +123,18 @@ gitbook serve # 启动服务
 ```bash
 gitbook mobi ./ ./MyFirstBook.mobi
 ```
+
+### 使用git更新
+
+
+
+
+
+###
+
+###
+
+###
 
 ### 结合github
 
