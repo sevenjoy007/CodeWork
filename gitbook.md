@@ -123,9 +123,13 @@ gitbook serve # 启动服务
 gitbook mobi ./ ./MyFirstBook.mobi
 ```
 
+### 结合github
+
+右上角Sync
 
 
 
+### 结合github page
 
 
 
