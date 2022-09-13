@@ -20,6 +20,8 @@ GitBook.com 是一个使用工具链来创建和托管书籍的在线平台。
 
 [gitbook文档（中文版）](https://chrisniael.gitbooks.io/gitbook-documentation/content/)
 
+[gitbook文档（原版）](https://docs.gitbook.com/integrations/git-sync/enabling-github-sync)——较新
+
 ## 安装
 
 #### 常规方法
@@ -126,23 +128,17 @@ gitbook mobi ./ ./MyFirstBook.mobi
 
 ### 使用git更新
 
+看[英文文档](https://docs.gitbook.com/integrations/git-sync)，需要结合一个github仓库（没有`git.gitbook.com`了，找不到该域名）
+
+1. 先`Enable Github Sync`，选择一个仓库跟分支
+2. 初始化可以选择 Github -> Github，或者Github -> Gitbook
+3. 之后`Live edit`时，每个改变的MR会在指定分支生成一个commit；如果提commit到github，也会同步到Gitbook空间。
+
+### 结合github page【todo】
 
 
 
 
-###
-
-###
-
-###
-
-### 结合github
-
-右上角Sync
-
-
-
-### 结合github page
 
 
 
