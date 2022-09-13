@@ -10,9 +10,9 @@ GitBook.com 是一个使用工具链来创建和托管书籍的在线平台。
 
 这个工具链 (GitBook) 是一个使用 Git 和 Markdown 来构建书籍的工具。它可以将你的书输出很多格式：PDF，ePub，mobi，或者输出为静态网页。
 
-[gitbook官网](https://www.gitbook.com/)
+[gitbook官网](https://www.gitbook.com/) / [网页APP](https://app.gitbook.com/home)
 
-[gitbook文档（中文版）](https://chrisniael.gitbooks.io/gitbook-documentation/content/)
+[gitbook文档（中文版）](https://chrisniael.gitbooks.io/gitbook-documentation/content/)&#x20;
 
 [gitbook文档（原版）](https://docs.gitbook.com/integrations/git-sync/enabling-github-sync)——较新
 
