@@ -173,6 +173,12 @@ npm i -D gh-pages
 
 [https://dunwu.gitbooks.io/gitbook-notes/content/advanced/plugins.html](https://dunwu.gitbooks.io/gitbook-notes/content/advanced/plugins.html)
 
+### TODO
+
+1. 使用插件（左右切文章），并且能够link到github
+
+
+
 ### 参考教程
 
 [https://skyao.gitbooks.io/learning-gitbook/content/creation/add\_chapter.html](https://skyao.gitbooks.io/learning-gitbook/content/creation/add\_chapter.html)\
