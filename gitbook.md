@@ -4,12 +4,6 @@ description: 介绍下gitbook的使用
 
 # GitBook
 
-### 参考教程
-
-[https://skyao.gitbooks.io/learning-gitbook/content/creation/add\_chapter.html](https://skyao.gitbooks.io/learning-gitbook/content/creation/add\_chapter.html)\
-[https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookinstall.html](https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookinstall.html)\
-
-
 ## 简介
 
 GitBook.com 是一个使用工具链来创建和托管书籍的在线平台。
@@ -179,7 +173,8 @@ npm i -D gh-pages
 
 [https://dunwu.gitbooks.io/gitbook-notes/content/advanced/plugins.html](https://dunwu.gitbooks.io/gitbook-notes/content/advanced/plugins.html)
 
+### 参考教程
 
-
-
+[https://skyao.gitbooks.io/learning-gitbook/content/creation/add\_chapter.html](https://skyao.gitbooks.io/learning-gitbook/content/creation/add\_chapter.html)\
+[https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookinstall.html](https://tonydeng.github.io/gitbook-zh/gitbook-howtouse/howtouse/gitbookinstall.html)
 
