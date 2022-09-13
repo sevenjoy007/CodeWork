@@ -134,11 +134,50 @@ gitbook mobi ./ ./MyFirstBook.mobi
 2. 初始化可以选择 Github -> Github，或者Github -> Gitbook
 3. 之后`Live edit`时，每个改变的MR会在指定分支生成一个commit；如果提commit到github，也会同步到Gitbook空间。
 
-### 结合github page【todo】
+### 结合github page
 
+**`在任意一个 Github 仓库中建立一个名为 gh-pages 的分支。只要 gh-pages 中的内容符合一个静态站点要求，就可以在如下地址中进行访问：https://Github用户名.gitbooks.io/Github 仓库。`**
 
+也就是说，该git项目将有如下两个分支：
 
+* master, 保存书籍的源码。
+* gh-pages, 保存书籍编译后的 HTML 文件。即`gitbook build`生成的`_book`目录下的文件。
 
+#### push到**`gh-pages 分支`**
+
+1. `gitbook build`将内容输出到`_book`目录
+2. 创建gh-pages分支，将\_book目录内容推送到该分支
+
+```bash
+git checkout --orphan source # 创建一个孤儿分支（与原分支内容不同，如果不提交东西，这个分支实际上没有创建）
+git rm --cached -r .        # 删除暂存区不需要的东西
+git clean -df               # 删除当前目录下没有被track过的文件和文件夹
+
+cp -r _book/* .
+git add xxx
+git commit -m 'publish'
+git push -u origin gh-pages
+```
+
+3\. 然后就可以访问**`https://Github用户名.gitbooks.io/Github`**了
+
+#### **`gh-pages`**自动发布 \[WIP]
+
+如果每次都要手动push到gh-pages分支，比较麻烦。可以用gh-pages插件实现自动发布。
+
+1. 安装插件
+
+```bash
+npm i -D gh-pages
+```
+
+2\. 使用该插件
+
+### 提升
+
+插件
+
+[https://dunwu.gitbooks.io/gitbook-notes/content/advanced/plugins.html](https://dunwu.gitbooks.io/gitbook-notes/content/advanced/plugins.html)
 
 
 
